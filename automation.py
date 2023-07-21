@@ -11,6 +11,8 @@ creds = ServiceAccountCredentials.from_json_keyfile_name('../sheetsAPI.json', sc
 client = gspread.authorize(creds)
 
 
+GOOGLE_ACCOUNT = "lorenzo.caputi@liceotasso.edu.it"
+
 
 # define basic variables
 # list names: hobbies, jobs, years, drinks
@@ -23,7 +25,7 @@ specific_tags = []
 # ----------------------- APOD SPREADSHEET
 # create a spreadsheet
 sh = client.create(f'AUTOMATION.{niche}')
-sh.share('matteo.lanzalunga@liceotasso.edu.it', perm_type='user', role='writer')
+sh.share(GOOGLE_ACCOUNT, perm_type='user', role='writer')
 sh_APOD = sh.sheet1
 
 # 1st row
