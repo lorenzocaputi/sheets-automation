@@ -1,3 +1,14 @@
+# DEPRECATED - This file has been replaced with the new modular structure
+# 
+# Please use the new implementation:
+# - Main entry point: src/main.py
+# - Configuration: config/settings.py  
+# - Documentation: README.md and docs/
+#
+# For usage examples, see: examples/sample_usage.py
+#
+# Original legacy code below (kept for reference):
+
 # PROGRAMMA PER REALIZZARE FILE GOOGLE SHEETS PER UNA NICCHIA, CAMBIANDONE ALCUNI VALORI
 # IN QUESTO ESEMPIO IL TREND E' "I LIKE X, Y AND MAYBE 3 PEOPLE"
 # PROVA A INSERIRE LA MAIL DEL TUO ACCOUNT GOOGLE E TI VERRA' MANDATO IL FILE CSV
